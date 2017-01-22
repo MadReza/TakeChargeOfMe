@@ -50,4 +50,13 @@
         android:layout_alignStart="@+id/smsButton"
         android:layout_marginBottom="16dp"
         android:id="@+id/ramezButton" />
+
+    <Button
+        android:text="MakeToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ToastButton"
+        android:layout_above="@+id/ramezButton"
+        android:layout_alignStart="@+id/smsButton"
+        android:elevation="0dp" />
 </RelativeLayout>
