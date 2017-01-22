@@ -28,7 +28,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="94dp"
-        android:id="@+id/phoneNum" />
+        android:id="@+id/phoneNum"
+        android:hint="Phone Number" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -40,4 +41,13 @@
         android:layout_marginTop="34dp"
         android:id="@+id/msgField"
         android:hint="Message" />
+
+    <Button
+        android:text="Ramzou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/smsButton"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/ramezButton" />
 </RelativeLayout>
